@@ -1,4 +1,4 @@
-import 'package:ccb_app_visitas/screens/login_screen.dart';
+import 'package:ccb_app_visitas/widgets/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'shareds/app_theme.dart';
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme, // Define o tema escuro
-      home: const LoginScreen(),
+      home: const SplashScreen(),
     );
   }
 }

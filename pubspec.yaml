@@ -25,11 +25,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/splash_logo.png
-
-flutter_native_splash:
-  color: "#2f3542" # Cor de fundo (Flat UI China - Prestige Blue)
-  image: assets/splash_logo.png # Caminho do logo personalizado (opcional)
-  android: true
-  ios: true
-  fullscreen: true
   
