@@ -1,5 +1,5 @@
+import 'package:ccb_app_visitas/screens/login_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
 import 'shareds/app_theme.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkTheme, // Define o tema escuro
-      home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }
