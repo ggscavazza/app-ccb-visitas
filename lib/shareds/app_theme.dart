@@ -9,6 +9,8 @@ class AppTheme {
   static const Color backgroundColor = Color(0xFF202020); // Preto falso
   static const Color cardColor = Color(0xFF0097e6); // Azul - Vanadyl Blue
   static const Color textColor = Color(0xFFf5f6fa); // Branco - Lynx White
+  static const Color buttonColor =
+      Color(0xFF487eb0); // Cinza Azulado - Seabrook
 
   static const Color blueColor = Color(0xFF00a8ff); // Azul - Protoss Pylon
   static const Color purpleColor = Color(0xFF9c88ff); // Roxo - Periwinkle
@@ -21,8 +23,6 @@ class AppTheme {
       Color(0xFF4cd137); // Verde - Download Progress
   static const Color darkGreenColor =
       Color(0xFF44bd32); // Verde - Skirret Green
-  static const Color blueGrayColor =
-      Color(0xFF487eb0); // Cinza Azulado - Seabrook
   static const Color darkBlueGrayColor =
       Color(0xFF40739e); // Cinza Azulado - Naval
   static const Color redColor =
